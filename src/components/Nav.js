@@ -8,10 +8,10 @@ const Navbar = () => {
     const handleClose =()=> setNav(!nav)
 
   return (
-    <div className='w-screen max-w-[1640px] h-[80px] z-10 fixed  mx-auto'>
-      <div className='px-4 flex justify-between items-center w-full h-full'>
-        <div className='flex items-center'>
-         <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668159053/Group_k6z4vk.png" alt="logo" className="lg:w-32 w-32 md:w-36"/>
+    <div className='w-screen h-[80px] drop-shadow-lg z-10 mx-auto'>
+      <div className='px-4 flex justify-between items-center w-full h-full '>
+        <div className='flex items-center '>
+         <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668159053/Group_k6z4vk.png" alt="logo" className="lg:w-38 w-32 md:w-36"/>
         </div>
 
         <div>
@@ -23,7 +23,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className='hidden md:flex pr-4'>
+        <div className='hidden md:flex'>
           <button className='px-3 py-2 nav-color text-white rounded-[10px]'>Connect Wallet</button>
         </div>
         <div className='md:hidden mr-4' onClick={handleClick}>
@@ -32,7 +32,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <ul className={!nav ? 'hidden' : 'absolute shadow-lg w-full px-8'}>
+      <ul className={!nav ? 'hidden' : 'absolute shadow-lg w-full px-8 bg-[#fff]'}>
           <li className="red border-b-1 border-opacity-50 mt-3 mb-3 border-black text-xl leading-6 text-[#434343] font-normal cursor-pointer hover:bg-opacity-50 hover:bg-zinc-50 w-full">Home</li>
           <li className="red border-b-1 border-opacity-50 mt-3 mb-3 border-black text-xl leading-6 text-[#434343] font-normal cursor-pointer hover:bg-opacity-50 hover:bg-zinc-50 w-full">Place to stay</li>
           <li className="red border-b-1 border-opacity-50 mt-3 mb-3 border-black text-xl leading-6 text-[#434343] font-normal cursor-pointer hover:bg-opacity-50 hover:bg-zinc-50 w-full">NFTs</li>

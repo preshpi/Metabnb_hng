@@ -18,3 +18,32 @@ body{
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
 }
 
+.hero_input{
+   background: rgba(247, 247, 247, 0.1);
+   border: 1px solid #A3A3A3;
+   border-radius: 8px 0px 0px 8px;
+}
+
+.row-img{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 100px;
+   gap: 264px;
+   position: absolute;
+   height: 70px;
+   left: 0px;
+   top: 742px;
+   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+
+.nft-text{
+   position: absolute;
+   height: 60px;
+   font-family: 'Red Rose';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 60px;
+}
