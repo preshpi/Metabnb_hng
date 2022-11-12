@@ -38,12 +38,35 @@ body{
    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
 }
 
-.nft-text{
-   position: absolute;
-   height: 60px;
-   font-family: 'Red Rose';
-   font-style: normal;
-   font-weight: 700;
-   font-size: 48px;
-   line-height: 60px;
+.cards{
+   background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+   border: 1px solid #D7D7D7;
+   border-radius: 15px;
 }
+
+.bnb{
+   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+   border: 1px solid #000000;
+}
+
+.bnb-title{
+   font-style: normal;
+   background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+}
+
+.bnb-text{
+   font-style: normal;
+   font-weight: 400;
+   background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.bnb-btn{
+   background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+   border-radius: 8px;
+}
+
