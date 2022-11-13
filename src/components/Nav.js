@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import { AiOutlineMenu,  AiOutlineClose } from 'react-icons/ai';
+import { Link } from 'react-router-dom'
+import Modal from './Modal';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -10,21 +12,22 @@ const Navbar = () => {
   return (
     <div className='w-screen h-[80px] drop-shadow-lg z-10 mx-auto'>
       <div className='px-4 flex justify-between items-center w-full h-full '>
-        <div className='flex items-center '>
+        <div className='flex items-center lg:mt-11 lg:mx-[100px]'>
          <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668159053/Group_k6z4vk.png" alt="logo" className="lg:w-38 w-32 md:w-36"/>
         </div>
 
         <div>
-        <ul className='hidden lg:flex gap-8'>
-          <li className="red text-xl leading-6 text-[#434343] font-normal">Home</li>
-          <li className="red text-xl leading-6 text-[#434343] font-normal">Place to stay</li>
+          <ul className='hidden lg:flex gap-8 lg:mt-14'>
+          <Link to="/"><li className="red text-xl leading-6 text-[#434343] font-normal">Home</li></Link>
+          <Link to="/place"><li className="red text-xl leading-6 text-[#434343] font-normal">Place to stay</li></Link>
           <li className="red text-xl leading-6 text-[#434343] font-normal">NFTs</li>
           <li className="red text-xl leading-6 text-[#434343] font-normal">Community</li>
           </ul>
         </div>
 
-        <div className='hidden md:flex'>
-          <button className='px-3 py-2 nav-color text-white rounded-[10px]'>Connect Wallet</button>
+        <div className='hidden md:flex lg:mr-[100px]'>
+          <Modal/>
+          {/* <button className='px-3 py-2 nav-color text-white rounded-[10px] mt-11'>Connect Wallet</button> */}
         </div>
         <div className='md:hidden mr-4' onClick={handleClick}>
             {!nav ? <AiOutlineMenu className='w-8 h-8 nav-color px2 py-2 rounded-md text-white' /> : <AiOutlineClose className='w-8 h-8 nav-color px2 py-2 rounded-md text-black' />}
@@ -34,11 +37,11 @@ const Navbar = () => {
 
       <ul className={!nav ? 'hidden' : 'absolute shadow-lg w-full px-8 bg-[#fff]'}>
           <li className="red border-b-1 border-opacity-50 mt-3 mb-3 border-black text-xl leading-6 text-[#434343] font-normal cursor-pointer hover:bg-opacity-50 hover:bg-zinc-50 w-full">Home</li>
-          <li className="red border-b-1 border-opacity-50 mt-3 mb-3 border-black text-xl leading-6 text-[#434343] font-normal cursor-pointer hover:bg-opacity-50 hover:bg-zinc-50 w-full">Place to stay</li>
+          <Link to="/place"><li className="red border-b-1 border-opacity-50 mt-3 mb-3 border-black text-xl leading-6 text-[#434343] font-normal cursor-pointer hover:bg-opacity-50 hover:bg-zinc-50 w-full">Place to stay</li></Link>
           <li className="red border-b-1 border-opacity-50 mt-3 mb-3 border-black text-xl leading-6 text-[#434343] font-normal cursor-pointer hover:bg-opacity-50 hover:bg-zinc-50 w-full">NFTs</li>
           <li className="red border-b-1 border-opacity-50 mt-3 mb-3 border-black text-xl leading-6 text-[#434343] font-normal cursor-pointer hover:bg-opacity-50 hover:bg-zinc-50 w-full">Community</li>
           <div className='flex flex-col my-4'>
-          <button className='px-3 py-3 nav-color text-white rounded-[10px]'>Connect Wallet</button>
+          <Modal/>
           </div>
       </ul>
     </div>

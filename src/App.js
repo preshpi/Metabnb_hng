@@ -1,17 +1,19 @@
 import './App.css';
-import Nav from './components/Nav';
-import Hero from './components/Hero';
-import Cards from './components/Cards';
-import Bnb from './components/Bnb';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Pages/Home';
+import Place from './Pages/Place'
 function App() {
   return (
     <div>
-      <Nav/>
-      <Hero/>
-      <Cards/>
-      <Bnb/>
-      <Footer/>
+      <Router>
+          <Routes>
+          
+          <Route path="/" element={<Home/>}/>
+          <Route path="/place" element={<Place/>}/>
+
+          </Routes>        
+      </Router>
+
     </div>
   );
 }

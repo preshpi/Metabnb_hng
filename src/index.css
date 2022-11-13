@@ -70,3 +70,16 @@ body{
    border-radius: 8px;
 }
 
+.grid1{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 12px 20px;
+   gap: 135px;
+   width: 536px;
+   height: 68px;
+   background: #F8F9FA;
+   border: 1px solid #CFD8DC;
+
+}

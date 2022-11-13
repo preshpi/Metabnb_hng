@@ -3,7 +3,7 @@ import React from 'react'
 function Hero() {
   return (
     <div className='w-full h-full flex flex-col justify-between '>
-        <div className='grid md:grid-cols-2  lg:max-w-[1600px] lg:mx-auto'>
+        <div className='grid md:grid-cols-2  lg:max-w-[1600px] lg:mx-auto lg:mt-[162px]'>
             <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
                  <h1 className="lg:text-6xl  text-4xl md:text-5xl lg:leading-[78px] md:leading-[50px] leading-[50px] font-normal tracking-wider text-[#434343] w-full">Rent a <strong className="text-[#A12278]">Place</strong> away from <strong className="text-[#A12278]">Home</strong> in the <strong className="text-[#A12278]">Metaverse</strong></h1>
                  <p className='lg:text-2xl text-x md:text-xl  lg:w-[636px] md:w-[398px] w-full h-[102px]  font-normal text-[#434343] leading-9 mt-12 mb-12'>we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone </p>
@@ -31,6 +31,10 @@ function Hero() {
             </div>
         <div>
         </div>
+        </div>
+
+        <div className="mt-24">
+            <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668194264/token_wkngrx.png" className="w-[1780px]"/>
         </div>
     </div>
   )
