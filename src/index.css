@@ -83,3 +83,7 @@ body{
    border: 1px solid #CFD8DC;
 
 }
+
+.dropdown:hover .dropdown-menu {
+   display: block;
+ }

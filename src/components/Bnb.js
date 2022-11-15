@@ -3,7 +3,7 @@ import React from 'react'
 function Bnb() {
   return (
     <div className="lg:h-[774px] h-full w-full bnb">
-        <div className="grid lg:grid-cols-2 md:grid-cols-2 justify-center items-center place-items-center">
+        <div className="grid lg:grid-cols-2 md:grid-cols-2  justify-center items-center place-items-center">
             <div className="lg:mt-[246px] lg:mb-[265px] mb-[30px] mx-[100px] mt-[100px] justify-center items-center place-items-center">
                 <h1 className="bnb-title lg:w-[346px] w-[290px] md:w-[330px] lg:h-[60px] h-[50px] font-bold lg:text-5xl text-4xl lg:leading-[60px] leading-[50px]">Metabnb NFTs</h1>
                  <p className="bnb-text mt-[35px] lg:text-lg leading-[35px]">Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. 

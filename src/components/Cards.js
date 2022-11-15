@@ -56,7 +56,7 @@ function Cards () {
           <div className="cards  w-[292px] lg:w-[350px] h-[422px] mt-5 lg:mx-[60px]  justify-center items-center place-items-center">
             
             <div className="justify-center items-center place-items-center grid mt-4">
-               <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668264931/Frame_151_g1kbjg.png" alt="Ntfs" className="lg:w-[300px] w-[270px] h-[300px] justify-center items-center place-items-center"/>
+               <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668264713/Frame_2_qejt1g.png" alt="Ntfs" className="lg:w-[300px] w-[270px] h-[300px] justify-center items-center place-items-center"/>
             </div>
 
             <div className="m-4">
@@ -83,7 +83,7 @@ function Cards () {
           <div className="cards  w-[292px] lg:w-[350px] h-[422px] mt-5 lg:mx-[20px] md:mx-[60px] justify-center items-center place-items-center">
             
             <div className="justify-center items-center place-items-center grid mt-4">
-               <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668264931/Frame_151_g1kbjg.png" alt="Ntfs" className="lg:w-[300px] w-[270px] h-[300px] justify-center items-center place-items-center"/>
+               <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668264714/Frame_3_cp1lzi.png" alt="Ntfs" className="lg:w-[300px] w-[270px] h-[300px] justify-center items-center place-items-center"/>
             </div>
 
             <div className="m-4">
@@ -110,7 +110,7 @@ function Cards () {
           <div className="cards  w-[292px] lg:w-[350px] h-[422px] mt-5 lg:mx-[-10px] justify-center items-center place-items-center">
             
             <div className="justify-center items-center place-items-center grid mt-4">
-               <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668264931/Frame_151_g1kbjg.png" alt="Ntfs" className="lg:w-[300px] w-[270px] h-[300px] justify-center items-center place-items-center"/>
+               <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668264716/Frame_4_u0yqa8.png" alt="Ntfs" className="lg:w-[300px] w-[270px] h-[300px] justify-center items-center place-items-center"/>
             </div>
 
             <div className="m-4">
@@ -138,7 +138,7 @@ function Cards () {
           <div className="cards  w-[292px] lg:w-[350px] h-[422px] mt-5 lg:mx-[100px] md:mx-[60px] justify-center items-center place-items-center">
             
             <div className="justify-center items-center place-items-center grid mt-4">
-               <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668264931/Frame_151_g1kbjg.png" alt="Ntfs" className="lg:w-[300px] w-[270px] h-[300px] justify-center items-center place-items-center "/>
+               <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668264717/Frame_5_ioefvd.png" alt="Ntfs" className="lg:w-[300px] w-[270px] h-[300px] justify-center items-center place-items-center "/>
             </div>
 
             <div className="m-4">
@@ -165,7 +165,7 @@ function Cards () {
           <div className="cards  w-[292px] lg:w-[350px] h-[422px] mt-5 lg:mx-[60px]  justify-center items-center place-items-center">
             
             <div className="justify-center items-center place-items-center grid mt-4">
-               <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668264931/Frame_151_g1kbjg.png" alt="Ntfs" className="lg:w-[300px] w-[270px] h-[300px] justify-center items-center place-items-center"/>
+               <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668264720/Frame_6_tul1jq.png" alt="Ntfs" className="lg:w-[300px] w-[270px] h-[300px] justify-center items-center place-items-center"/>
             </div>
 
             <div className="m-4">
@@ -192,7 +192,7 @@ function Cards () {
           <div className="cards  w-[292px] lg:w-[350px] h-[422px] mt-5 lg:mx-[20px] md:mx-[60px] justify-center items-center place-items-center">
             
             <div className="justify-center items-center place-items-center grid mt-4">
-               <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668264931/Frame_151_g1kbjg.png" alt="Ntfs" className="lg:w-[300px] w-[270px] h-[300px] justify-center items-center place-items-center"/>
+               <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668264717/Frame_7_usmbvt.png" alt="Ntfs" className="lg:w-[300px] w-[270px] h-[300px] justify-center items-center place-items-center"/>
             </div>
 
             <div className="m-4">
@@ -219,7 +219,7 @@ function Cards () {
           <div className="cards  w-[292px] lg:w-[350px] h-[422px] mt-5 lg:mx-[-10px] justify-center items-center place-items-center">
             
             <div className="justify-center items-center place-items-center grid mt-4">
-               <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668264931/Frame_151_g1kbjg.png" alt="Ntfs" className="lg:w-[300px] w-[270px] h-[300px] justify-center items-center place-items-center"/>
+               <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668264720/Frame_8_opjcei.png" alt="Ntfs" className="lg:w-[300px] w-[270px] h-[300px] justify-center items-center place-items-center"/>
             </div>
 
             <div className="m-4">
@@ -459,7 +459,6 @@ function Cards () {
 
           </div> */}
         </div>
-
     </div>
   )
 }

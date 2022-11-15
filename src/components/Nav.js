@@ -10,7 +10,8 @@ const Navbar = () => {
     const handleClose =()=> setNav(!nav)
 
   return (
-    <div className='w-screen h-[80px] drop-shadow-lg z-10 mx-auto'>
+    
+     <div className='w-screen h-[80px] drop-shadow-lg z-10 mx-auto'>
       <div className='px-4 flex justify-between items-center w-full h-full '>
         <div className='flex items-center lg:mt-11 lg:mx-[100px]'>
          <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668159053/Group_k6z4vk.png" alt="logo" className="lg:w-38 w-32 md:w-36"/>
@@ -25,11 +26,11 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className='hidden md:flex lg:mr-[100px]'>
+        <div className='lg:block hidden lg:mr-[100px]'>
           <Modal/>
-          {/* <button className='px-3 py-2 nav-color text-white rounded-[10px] mt-11'>Connect Wallet</button> */}
+          
         </div>
-        <div className='md:hidden mr-4' onClick={handleClick}>
+        <div className='lg:hidden mr-4' onClick={handleClick}>
             {!nav ? <AiOutlineMenu className='w-8 h-8 nav-color px2 py-2 rounded-md text-white' /> : <AiOutlineClose className='w-8 h-8 nav-color px2 py-2 rounded-md text-black' />}
           
         </div>

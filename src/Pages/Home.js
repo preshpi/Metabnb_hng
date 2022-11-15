@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from '../components/Nav';
+import BasicExample from '../components/Nav';
 import Hero from '../components/Hero';
 import Cards from '../components/Cards';
 import Bnb from '../components/Bnb';
@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 function Home() {
   return (
     <div>
-      <Nav/>
+      <BasicExample/>
       <Hero/>
       <Cards/>
       <Bnb/>
