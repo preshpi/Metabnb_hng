@@ -37,7 +37,7 @@ const Navbar = () => {
       </div>
 
       <ul className={!nav ? 'hidden' : 'absolute shadow-lg w-full px-8 bg-[#fff]'}>
-          <li className="red border-b-1 border-opacity-50 mt-3 mb-3 border-black text-xl leading-6 text-[#434343] font-normal cursor-pointer hover:bg-opacity-50 hover:bg-zinc-50 w-full">Home</li>
+      <Link to="/"><li className="red border-b-1 border-opacity-50 mt-3 mb-3 border-black text-xl leading-6 text-[#434343] font-normal cursor-pointer hover:bg-opacity-50 hover:bg-zinc-50 w-full">Home</li></Link>
           <Link to="/place"><li className="red border-b-1 border-opacity-50 mt-3 mb-3 border-black text-xl leading-6 text-[#434343] font-normal cursor-pointer hover:bg-opacity-50 hover:bg-zinc-50 w-full">Place to stay</li></Link>
           <li className="red border-b-1 border-opacity-50 mt-3 mb-3 border-black text-xl leading-6 text-[#434343] font-normal cursor-pointer hover:bg-opacity-50 hover:bg-zinc-50 w-full">NFTs</li>
           <li className="red border-b-1 border-opacity-50 mt-3 mb-3 border-black text-xl leading-6 text-[#434343] font-normal cursor-pointer hover:bg-opacity-50 hover:bg-zinc-50 w-full">Community</li>
